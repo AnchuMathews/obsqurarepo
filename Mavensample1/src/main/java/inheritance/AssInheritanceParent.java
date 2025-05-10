@@ -1,13 +1,16 @@
 package inheritance;
 
 public class AssInheritanceParent {
+	float a=100001;
+	float d=100;
+	float b=150;
 	public void Parent()
+	
 	{
-		float a=10000;
 		System.out.println("Basic pay will be: "+ a);
-		float d=100;
+		
 		System.out.println("Amount deduction will be: "+d);
-		float b=150;
+		
 		System.out.println("Bonus amount will be: "+b);
 	}
 
